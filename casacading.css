@@ -1,0 +1,46 @@
+!doctype html>
+<html>
+    <head>
+        <title> Cascading</title>
+        <!---selector {
+            property :value;
+        }-->
+        <!--Internal CSS-->
+        <!----->
+        <style>
+            h1 {
+                 color: blue;
+                 font-size: 100px;
+                 text-transform: uppercase;
+            }
+            h2 {
+                 color: blue;
+                 font-size: 100px;
+                 text-transform: uppercase;
+            }
+            h1,h2 {
+                 color: blue;
+                 font-size: 100px;
+                 text-transform: uppercase;
+            }
+            .classselector{
+                color: black;
+                font-size: 100px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-decoration: underline;
+            }
+            #header{
+                color: brown;
+                font-size: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Cascading Stylesheet</h1>
+        <h2>Grouping  Select</h2>
+        <h1 class="classselector">Class Selector</h1>
+        <h1 class="classselector">Class Selector</h1><!--change color-->
+        <h1>Class Selector</h1><!--change color-->
+        <h1>Class Selector</h1><!--change color-->
+
+        <h3 class="classselector" id="header">Id Selector</h3>

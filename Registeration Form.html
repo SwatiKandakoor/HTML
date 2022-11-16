@@ -16,34 +16,50 @@
                 </thead>
             </table>
                
-           
-                <label>Enter First Name</label>
-                <input type="text" name="firstName" placeholder="enter firstName"> 
+           <div>
+                <label>Enter First Name </label>
+                <input type="text" name="firstName" placeholder="enter firstName" autocomplete="off" required minlength="2" maxlength="7"> 
 
                 <label>Enter Last Name</label>
-                <input type="text" name="lastName" placeholder="enter lastName">
+                <input type="text" name="lastName" placeholder="enter lastName" autocomplete="off" required>
+            </div>
                 <br><!--break Tag--><!--email-->
 
+                <div>
+                    <label>Enter Age</label>
+                    <input type="number" name="age" min="0" max="100" placeholder="age" autocomplete="off" required>
+                </div>
+<div>
                 <label>Enter email id </label>
-                <input type="email" name="email" placeholder="enter email"><!--type is attribute-->
+                <input type="email" name="email" placeholder="enter email" required autocomplete="off"><!--type is attribute-->
+            </div>
                 <br>
 
                 <div>
                     <label>Enter password</label>
-                    <input type="password" name="password" placeholder=" new password">
+                    <input type="password" name="password" placeholder=" new password" autocomplete="off" required minlength="0" maxlength="8">
                 </div>
-
+                <br>
+                <div>
                 <label>date of birth </label>
-                <input type="date" name="date" placeholder=" data of birth">
+                <input type="date" name="date" placeholder=" data of birth" autocomplete="off" required>
+            </div>
                 <br>
 
                 <div>
                     <label>Select Gender</label>
                     <input type="radio" name="gender">Male
                     <input type="radio" name="gender">Female
-                    <input type="radio" name="gender">Others
+                    <input type="radio" name="gender" checked>Others
                 </div>
 
+                <div>
+                    <label>Select Course</label>
+                    <input type="checkbox" disabled>Java
+                    <input type="checkbox">Python
+                    <input type="checkbox">SQL
+                </div>
+<br>
                 <div>
                     <label>Select City</label>
                     <select>
@@ -52,24 +68,67 @@
                         <option>Bagalkot</option>
                     </select>
                 </div>
-
-                <label>Enter mobileNumber</label>
-                <input type="mobileNumber" name="mobileNumber" placeholder="mobile number">
                 <br>
+                <div>
+                <label>Enter mobileNumber</label>
+                <input type="mobileNumber"  autocomplete="off" name="mobileNumber" autocomplete="off" placeholder="+91 15365625244" required minlength="0" maxlength="10">
+            </div>
+                <br>
+               <div>
 
                 <label>Address</label>
-                <input type="address" name="name" placeholder="Address">
+                <textarea rows="10" cols="10"></textarea>
                 <!--dataofBirth,mobileNumber,Address-->
+            </div>
                 <br>
 
                 
-                    <h2><mark>Create an acconts</mark></h2>
+                   <!----- <h2><mark>Create an acconts</mark></h2>>
                
-            
+            <!----Naukri website-->
+            <div>
+                <label>Select File/Resume</label>
+                <input type="file" name="uploadsFile">
+            </div>
+            <div>
+               <!---- <input type="submit">-->
+                <button type="submit">submit</button>
+                <button type="reset">Reset</button>
+            </div>
+            <marquee><h1>Swati</h1></marquee>
             </form>
            
         </body>
     </head>
 </html>
+<!--htmls validation--> 
+<!---how to turn autosuggestion in htmls-->       
+<!--text,eamil,password,number,filr,tel,radio,submit,data-->
 
-        
+
+
+
+<!---Limitations of HTML
+Aligrment
+color
+FontSize
+Background image
+letterspacing,wordsspacing
+Margin,padding
+
+CSS - Cascading Stylesheet
+
+Syntax of CSS
+selector{
+    property : value;
+
+}
+-->
+
+
+<!--Audio,Video-->
+<audio src=""></audio>
+<video src=""></video>
+
+<!----how to load youtube video in html page-->
+

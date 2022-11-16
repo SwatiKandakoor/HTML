@@ -1,0 +1,32 @@
+/* h1{
+    text-align: center;
+    color: violet;
+}
+h2{
+    color: tomato;
+}
+body{
+    background-color: #deb588;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+#center{
+    color: black;
+    font-size: 100px;
+} */
+ .container {
+    background: linear-gradient(#00ccff,#b3f0ff);
+    box-shadow: 3px 5px 3px red;
+
+}
+ h1{
+    color: #ffffff;
+    text-shadow: 2px,2px black;
+
+}
+h2{
+    color: rgb(0,24,78);
+}  

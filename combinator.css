@@ -1,0 +1,89 @@
+/* Descendant Selector*/
+div p{
+    color: red;
+}
+/* Child Selector*/
+div > p{
+    color: blue;
+}
+/* Adjacent Sibling Selector=next row */
+div + p{
+    color: rgb(10,20,50);
+}
+/* General Sibiling selector */
+div ~ p{
+    color: chartreuse;
+}
+
+/* color property
+
+position
+top, bottom,right,left */
+
+.static {
+    position: static;
+    left: 100px;
+}
+.relative{
+    position: relative;
+    left: -240px;
+   /* bottom: 100px; */
+    top: -300px; 
+
+}
+.absolute{
+    position: absolute;
+    bottom:0px ;
+    right: 100px;
+  
+}
+.topleft{
+    position: absolute;
+    top: 0;
+    left: 0px;
+   color: red;
+}
+.imageparent{
+    position: relative;
+}
+img {
+    width: 50%;
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+.fixed{
+    position: fixed;
+    bottom: 0;
+   
+    background-color: blue;
+}
+.topmiddel{
+    position: absolute;
+    top: 0;
+    left: 200px;
+     color: blue;
+}
+.topright{
+    position: absolute;
+    top: 0;
+    left: 400px;
+   color: yellow;
+
+}
+.sticky{
+    position: absolute;
+    top: 0;
+    background-color: brown;
+}
+ul{
+    list-style-type: none;
+    color: aqua;
+    background-color: black;
+}
+li{
+    padding: 3px;
+    margin: 0;
+}
+
