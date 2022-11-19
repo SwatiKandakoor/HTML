@@ -1,0 +1,129 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+
+}
+.main{
+   width: 100%;
+   height: 100vh;
+   background-image: url("C:\\Users\\tg68\\Downloads\\main.jpeg");
+  
+   background-size:cover;
+  background-position: center;
+
+}
+.navbar{
+   width: 85%;
+   margin: auto;
+   padding: 35px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+/* .box{
+   background-color: #fff;
+   
+   
+ }  */
+.logo{
+   width: 120px;
+   cursor: pointer;
+}
+.navbar ul li{
+   list-style: none;
+   display:inline-block ;
+   margin: 0 20px;
+   position: relative;
+}
+.navbar ul li a{
+   text-decoration: none;
+   color: rgb(30, 26, 26);
+}
+.navbar ul li::after{
+   content: '';
+   height: 3px;
+   width: 0;
+   background: #009688;
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+   transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+   width: 100%;
+}
+.content{
+   width: 100%;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   text-align: center;
+   color: white;
+}
+.content h1{
+   font-size: 70px;
+   margin-top: 80px;
+}
+.content p{
+   font-size: 20px;
+   margin: 0;   
+ 
+}
+button{
+   width: 200px;
+   padding: 15px 0;
+   text-align: center;
+   margin: 20px 10;
+   border-radius: 25px;
+   font-weight: bold;
+   border: 2px solid white;
+   background-color: white;
+   color: #009688;
+   cursor: pointer;
+   font-size: 20px;
+
+}
+.about h1{
+   font-size: 78%;
+   text-align: center;
+   margin: 0;
+   font-weight: bold;
+   color: blacks;
+
+}
+/* header{
+   
+    background-size: cover;
+    background-position: center;
+
+}
+u1{
+   float: right;
+   list-style-type: none;
+   margin: 25px;
+}
+u1 li{
+   display: inline-block;
+}
+u
+} */
+ 
+ /* .header-left{
+    display: grid;
+    justify-items: center;
+    
+    align-items: center;
+    font-size: 2rem;
+ } */
+ /* .name{
+    font-weight: 400;
+    margin: 0;
+ }
+ .header-middale{
+    width: 100%;
+    display: grid;
+    justify-items: end;
+ } */
+  
