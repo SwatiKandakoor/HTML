@@ -1,11 +1,11 @@
-*{
+/* *{
    margin: 0;
    padding: 0;
    font-family: sans-serif;
 
-}
+} */
 .main{
-   width: 100%;
+   width: 97%;
    height: 100vh;
    background-image: url("C:\\Users\\tg68\\Downloads\\main.jpeg");
   
@@ -15,17 +15,16 @@
 }
 .navbar{
    width: 85%;
-   margin: auto;
-   padding: 35px 0;
+   padding: 10px 200px ;
+   padding-bottom: 40px;
    display: flex;
    align-items: center;
    justify-content: space-between;
-}
-/* .box{
    background-color: #fff;
+   margin-left: 0;
    
-   
- }  */
+}
+
 .logo{
    width: 120px;
    cursor: pointer;
@@ -35,10 +34,13 @@
    display:inline-block ;
    margin: 0 20px;
    position: relative;
+   padding: 0px 80px ;
+  margin-bottom: 40px;
 }
 .navbar ul li a{
    text-decoration: none;
    color: rgb(30, 26, 26);
+
 }
 .navbar ul li::after{
    content: '';
@@ -65,15 +67,20 @@
 .content h1{
    font-size: 70px;
    margin-top: 80px;
+   margin-bottom: -1px;
 }
-.content p{
+ p{
    font-size: 20px;
-   margin: 0;   
+   margin: 0;  
+   margin-bottom: 30px; 
+   color: white;
+   /* text-align: center;
+   color: white; */
  
 }
 button{
    width: 200px;
-   padding: 15px 0;
+   padding: 15px ;
    text-align: center;
    margin: 20px 10;
    border-radius: 25px;
@@ -82,48 +89,46 @@ button{
    background-color: white;
    color: #009688;
    cursor: pointer;
-   font-size: 20px;
+   font-size: 15px;
 
 }
-.about h1{
-   font-size: 78%;
-   text-align: center;
-   margin: 0;
-   font-weight: bold;
-   color: blacks;
-
-}
-/* header{
+ #about h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
    
-    background-size: cover;
-    background-position: center;
+    
+}
+ #text{
+   border: 7px solid rgb(69, 155, 212);
+   height: 400px;
+   width: 500px;
+   margin-left: 200px;
+   margin-top: 50px;
+   display: flex;
 
 }
-u1{
-   float: right;
-   list-style-type: none;
-   margin: 25px;
+.img{
+   height: 400px;
+   width: 500px;
+   margin-left: 30px;
+   padding-top: 30px;
+   
+} 
+.ss{
+  margin-left: 80px;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-top: 60px;
 }
-u1 li{
-   display: inline-block;
+.pp{
+   font-family: sans-serif;
+   margin-top: -30px;
+   font-size: 15px;
+   text-align: start;
+   color:gray;
+}  */
+.but{
+   background-color: rgb(42, 149, 165);
+   color: white;
 }
-u
-} */
- 
- /* .header-left{
-    display: grid;
-    justify-items: center;
-    
-    align-items: center;
-    font-size: 2rem;
- } */
- /* .name{
-    font-weight: 400;
-    margin: 0;
- }
- .header-middale{
-    width: 100%;
-    display: grid;
-    justify-items: end;
- } */
-  
